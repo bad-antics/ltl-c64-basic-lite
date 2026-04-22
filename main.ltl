@@ -1,0 +1,15 @@
+// ltl-c64-basic-lite/main.ltl
+//
+// C64-flavoured BASIC interpreter over ASCII.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-c64-basic-lite v0.1.0")
+    io::println("C64-flavoured BASIC interpreter over ASCII.")
+    0
+}
